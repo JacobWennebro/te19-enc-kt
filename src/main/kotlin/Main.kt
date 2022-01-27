@@ -9,7 +9,7 @@ fun numberGenerator(iterations: Int): IntArray {
 }
 
 fun main(args: Array<String>) {
-    val numbers = numberGenerator(1000);
+    val numbers = numberGenerator(1000)
 
     println(numbers.get(999))
     println(numbers.get(929))
